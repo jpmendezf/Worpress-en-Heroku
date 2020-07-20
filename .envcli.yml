@@ -1,0 +1,16 @@
+commands:
+- name: php
+  description: Si bien está diseñado para el desarrollo web, el lenguaje de secuencias de comandos PHP también proporciona un uso general.
+  provides:
+  - php
+  image: gilbitron/php7.0-mysql
+  tag: latest
+  shell: sh
+  # php:7.2-fpm-alpine3.7
+- name: composer
+  description: Composer es un administrador de dependencias escrito en y para PHP.
+  provides:
+  - composer
+  image: composer
+  tag: latest
+  shell: sh
